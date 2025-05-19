@@ -1,1 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaming Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Left Sidebar (GameZone Menu) -->
+  <body>
+    <!-- Left Sidebar (GameZone Menu) -->
+    <div class="left-sidebar" id="left-sidebar">
+      <div class="sidebar-content">
+        <ul>
+          <li>Home</li>
+          <li>Categories</li>
+          <li>Tournaments</li>
+          <li>Recently Added Games</li>
+          <li>Setting</li>
+          <li>Help</li>
+        </ul>
+        <div class="important-details">
+          <h3>Important Details</h3>
+          <p>Check out our latest updates and new game releases!</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Profile Sidebar -->
+    <div class="profile-sidebar" id="profile-sidebar">
+      <div class="sidebar-content">
+        <div class="profile-info">
+          <img src="img/profile.png" alt="Profile Picture">
+          <p>Username</p>
+        </div>
+        <ul>
+          <li>Friends</li>
+          <li>Add Friend</li>
+          <li>Community</li>
+          <li>Logout</li>
+        </ul>
+      </div>
+    </div>
+  
+    <!-- Main Content Wrapper -->
+    <div class="main-content">
+      <!-- Header and Video Section (Combined) -->
+      <section class="hero-section">
+        <!-- Video Background -->
+        <video autoplay muted loop>
+          <source src="video/game-trailer.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+  
+        <!-- Overlay Content -->
+        <div class="overlay">
+          <!-- Header -->
+          <header>
+            <div class="logo" id="logo-btn">
+              <h1>GameZone</h1>
+            </div>
+            <div class="search-bar">
+              <input type="text" placeholder="Search games, friends, or categories">
+              <button>🔍</button>
+            </div>
+            <div class="user-profile">
+              <span id="profile-btn">Profile</span>
+            </div>
+          </header>
+  
+          <!-- Game Details -->
+          <div class="game-details">
+            <img src="img/profile.png" id="game-icon" alt="Game Icon">
+            <div class="game-info">
+              <h2>Game Name</h2>
+              <p>Action-packed RPG with stunning graphics.</p>
+              <div class="rating">★★★★☆</div>
+              <a href="#" id="play-button" target="_self">Play Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Related Games Section -->
+      <!-- Related Games Section -->
+  <section class="related-games">
+      <h3>Related Games</h3>
+      <div class="game-list">
+        <div class="game-card" data-video="video/gow.mp4" data-image="img/gow.png" data-details='{"name": "God Of Wars", "description": "Action RPG with stunning visuals.", "rating": "★★★★☆"}' data-playnow="#">
+          <img src="img/gow.png" alt="Game 1">
+          <p>God Of Wars</p>
+        </div>
+        <div class="game-card" data-video="video/rdr2.mp4" data-image="img/rdr2.png" data-details='{"name": "Red Dead Redemption 2", "description": "Adventure game with puzzles.", "rating": "★★★☆☆"}' data-playnow="#">
+          <img src="img/rdr2.png" alt="Game 2">
+          <p>Red Dead Redemption 2</p>
+        </div>
+        <div class="game-card" data-video="video/tw3.mp4" data-image="img/tw3.png" data-details='{"name": "The Witcher 3: Wild Hunt", "description": "Action RPG with stunning visuals.", "rating": "★★★★☆"}' data-playnow="#">
+          <img src="img/tw3.png" alt="Game 3">
+          <p>The Witcher 3: Wild Hunt</p>
+        </div>
+        <div class="game-card" data-video="video/bmw.mp4" data-image="img/bmw.jpg" data-details='{"name": "Black Myth Wukong", "description": "Adventure game with puzzles.", "rating": "★★★☆☆"}' data-playnow="#">
+          <img src="img/bmw.jpg" alt="Game 4">
+          <p>Black Myth Wukong</p>
+        </div>
+        <div class="game-card" data-video="video/cod.mp4" data-image="img/cod.jpg" data-details='{"name": "Call Of Duty", "description": "Action RPG with stunning visuals.", "rating": "★★★★☆"}' data-playnow="#">
+          <img src="img/cod.jpg" alt="Game 5">
+          <p>Call Of Duty</p>
+        </div>
+        <div class="game-card" data-video="video/acu.mp4" data-image="img/acu.jpg" data-details='{"name": "Assession Creed : Unity", "description": "Adventure game with puzzles.", "rating": "★★★☆☆"}' data-playnow="#">
+          <img src="img/acu.jpg" alt="Game 6">
+          <p>Assession Creed : Unity</p>
+        </div>
+        <div class="game-card" data-video="video/got.mp4" data-image="img/got.jpg" data-details='{"name": "Ghost Of Tsushima", "description": "Action RPG with stunning visuals.", "rating": "★★★★☆"}' data-playnow="#">
+          <img src="img/got.jpg" alt="Game 7">
+          <p>Ghost Of Tsushima</p>
+        </div>
+        <div class="game-card" data-video="video/dbhs.mp4" data-image="img/dbhs.jpg" data-details='{"name": "Detorit Become Human Suffocation", "description": "Adventure game with puzzles.", "rating": "★★★☆☆"}' data-playnow="#">
+          <img src="img/dbhs.jpg" alt="Game 8">
+          <p>Detorit Become Human</p>
+        </div>
+        <div class="game-card" data-video="video/p.mp4" data-image="img/p.jpg" data-details='{"name": "Phasmophobia", "description": "Action RPG with stunning visuals.", "rating": "★★★★☆"}' data-playnow="#">
+          <img src="img/p.jpg" alt="Game 9">
+          <p>Phasmophobia</p>
+        </div>
+        <div class="game-card" data-video="video/fh5.mp4" data-image="img/fh5.jpg" data-details='{"name": "Forza Horizon 5", "description": "Adventure game with puzzles.", "rating": "★★★☆☆"}' data-playnow="#">
+          <img src="img/fh5.jpg" alt="Game 10">
+          <p>Forza Horizon 5</p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Recently Played Section -->
+    <section class="recently-played">
+      <h3>Recently Played</h3>
+      <div class="game-list">
+        <div class="game-card" data-video="video/h3.mp4" data-image="img/h3.jpg" data-details='{"name": "Hitman 3", "description": "Multiplayer shooter game.", "rating": "★★★★★"}' data-playnow="#">
+          <img src="img/h3.jpg" alt="Game 01">
+          <p>Hitman 3</p>
+        </div>
+        <div class="game-card" data-video="video/pubg.mp4" data-image="img/pubg.jpg" data-details='{"name": "BattleGround : PUBG", "description": "Strategy game with epic battles.", "rating": "★★★☆☆"}' data-playnow="#">
+          <img src="img/pubg.jpg" alt="Game 02">
+          <p>BattleGround : PUBG</p>
+        </div>
+        <div class="game-card" data-video="video/sottr.mp4" data-image="img/sottr.jpg" data-details='{"name": "Tomb Rider", "description": "Multiplayer shooter game.", "rating": "★★★★★"}' data-playnow="#">
+          <img src="img/sottr.jpg" alt="Game 03">
+          <p>Tomb Rider</p>
+        </div>
+        <div class="game-card" data-video="video/t8.mp4" data-image="img/t8.jpg" data-details='{"name": "Tekken 8", "description": "Strategy game with epic battles.", "rating": "★★★☆☆"}' data-playnow="#">
+          <img src="img/t8.jpg" alt="Game 04">
+          <p>Tekken 8</p>
+        </div>
+        <div class="game-card" data-video="video/v.mp4" data-image="img/v.jpg" data-details='{"name": "Valorant", "description": "Strategy game with epic battles.", "rating": "★★★☆☆"}' data-playnow="#">
+          <img src="img/v.jpg" alt="Game 05">
+          <p>Valorant</p>
+        </div>
+      </div>
+    </section>
+  
+      <!-- Footer Section -->
+      <footer>
+        <p>&copy; 2025 Ayush Shivam GameZone. All rights reserved.</p>
+      </footer>
+    </div>
 
+  <script src="script.js"></script>
+</body>
+</html>
